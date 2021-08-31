@@ -2,7 +2,7 @@ from flask import Flask, jsonify,request
 import numpy as np
 import pandas as pd
 import sys
-import simplejson
+# import simplejson
 from sklearn.impute import SimpleImputer
 app = Flask(__name__)
 @app.route('/predict', methods=['POST'])
