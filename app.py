@@ -21,4 +21,4 @@ def predict():
     #  prediction = lr.predict(query)
      return ({'results':list(query_dp['x76'])})
 if __name__ == '__main__':
-    app.run(port=3133,debug=True)
+    app.run(host ='0.0.0.0', port = 3133, debug = True)
